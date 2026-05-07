@@ -12,6 +12,7 @@ namespace DailyPlanner
         public string GetDescription()
         {
             return ($"{StartTime:HH:mm} - {EndTime:HH:mm}: {Title}");
+            //proba
         }
     }
 }
