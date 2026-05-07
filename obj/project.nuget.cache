@@ -1,8 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "cyQPZNgwovA=",
+  "dgSpecHash": "ZfMHwzO7mdI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\artem\\DailyPlannerGUI\\DailyPlannerGUI.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "projectFilePath": "C:\\Users\\artem\\DailyPlannerGUI\\DailyPlannerGuI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\artem\\.nuget\\packages\\system.text.json\\10.0.7\\system.text.json.10.0.7.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference System.Text.Json не будет урезано. Рассмотрите возможность удаления этого пакета из зависимостей, так как он, вероятно, не требуется.",
+      "projectPath": "C:\\Users\\artem\\DailyPlannerGUI\\DailyPlannerGuI.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\artem\\DailyPlannerGUI\\DailyPlannerGuI.csproj",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net10.0-windows7.0"
+      ]
+    }
+  ]
 }

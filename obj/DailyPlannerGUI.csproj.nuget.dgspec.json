@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\artem\\DailyPlannerGUI\\DailyPlannerGUI.csproj": {}
+    "C:\\Users\\artem\\DailyPlannerGUI\\DailyPlannerGuI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\artem\\DailyPlannerGUI\\DailyPlannerGUI.csproj": {
+    "C:\\Users\\artem\\DailyPlannerGUI\\DailyPlannerGuI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\artem\\DailyPlannerGUI\\DailyPlannerGUI.csproj",
-        "projectName": "DailyPlannerGUI",
-        "projectPath": "C:\\Users\\artem\\DailyPlannerGUI\\DailyPlannerGUI.csproj",
+        "projectUniqueName": "C:\\Users\\artem\\DailyPlannerGUI\\DailyPlannerGuI.csproj",
+        "projectName": "DailyPlannerGuI",
+        "projectPath": "C:\\Users\\artem\\DailyPlannerGUI\\DailyPlannerGuI.csproj",
         "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\artem\\DailyPlannerGUI\\obj\\",
         "projectStyle": "PackageReference",
@@ -43,6 +43,12 @@
       "frameworks": {
         "net10.0-windows7.0": {
           "targetAlias": "net10.0-windows",
+          "dependencies": {
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[10.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

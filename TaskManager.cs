@@ -1,5 +1,8 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Reflection.Emit;
+using System.Text.Json;
 
 namespace DailyPlannerGUI
 {
@@ -7,6 +10,27 @@ namespace DailyPlannerGUI
     {
         private List<Task> tasks = new List<Task>();
 
+        public void SaveToFile(string fileName)
+        {
+            var get = GetAllTasks();
+            string json = JsonSerializer.Serialize(get);
+            File.WriteAllText(fileName,json);
+        }
+
+        public void LoadFromFile(string filename)
+        {
+            if (File.Exists(filename))
+            {
+                string json = File.ReadAllText(filename);
+                var loadedTasks = JsonSerializer.Deserialize<List<Task>>(json);
+                if (loadedTasks != null)
+                {
+                    tasks = loadedTasks;
+                }
+
+            }
+        }
+ 
         public void AddTask(Task task)
         {
             tasks.Add(task);

@@ -9,7 +9,13 @@ namespace DailyPlannerGUI
         static void Main()
         {
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            
+            var form = new Form1();
+            form.TaskManager.LoadFromFile("tasks.json");
+            form.RefreshTasks();
+            form.FormClosing += (s, e) => form.TaskManager.SaveToFile("tasks.json");
+            
+            Application.Run(form);
         }
     }
 }

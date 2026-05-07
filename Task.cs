@@ -8,6 +8,7 @@ namespace DailyPlannerGUI
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
         public bool IsCompleted { get; set; }
+        public Task() { }
         
         public string GetDescription()
         {
