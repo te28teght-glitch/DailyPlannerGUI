@@ -1,0 +1,14 @@
+C:\Users\artem\DailyPlannerGUI\bin\Debug\net10.0-windows\DailyPlannerGUI.exe
+C:\Users\artem\DailyPlannerGUI\bin\Debug\net10.0-windows\DailyPlannerGUI.deps.json
+C:\Users\artem\DailyPlannerGUI\bin\Debug\net10.0-windows\DailyPlannerGUI.runtimeconfig.json
+C:\Users\artem\DailyPlannerGUI\bin\Debug\net10.0-windows\DailyPlannerGUI.dll
+C:\Users\artem\DailyPlannerGUI\bin\Debug\net10.0-windows\DailyPlannerGUI.pdb
+C:\Users\artem\DailyPlannerGUI\obj\Debug\net10.0-windows\DailyPlannerGUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\artem\DailyPlannerGUI\obj\Debug\net10.0-windows\DailyPlannerGUI.AssemblyInfoInputs.cache
+C:\Users\artem\DailyPlannerGUI\obj\Debug\net10.0-windows\DailyPlannerGUI.AssemblyInfo.cs
+C:\Users\artem\DailyPlannerGUI\obj\Debug\net10.0-windows\DailyPlannerGUI.csproj.CoreCompileInputs.cache
+C:\Users\artem\DailyPlannerGUI\obj\Debug\net10.0-windows\DailyPlannerGUI.dll
+C:\Users\artem\DailyPlannerGUI\obj\Debug\net10.0-windows\refint\DailyPlannerGUI.dll
+C:\Users\artem\DailyPlannerGUI\obj\Debug\net10.0-windows\DailyPlannerGUI.pdb
+C:\Users\artem\DailyPlannerGUI\obj\Debug\net10.0-windows\DailyPlannerGUI.genruntimeconfig.cache
+C:\Users\artem\DailyPlannerGUI\obj\Debug\net10.0-windows\ref\DailyPlannerGUI.dll
