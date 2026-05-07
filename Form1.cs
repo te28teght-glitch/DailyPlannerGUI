@@ -55,6 +55,7 @@ namespace DailyPlannerGUI
             removeButton.Location = new Point(180, 300);
             removeButton.Size = new Size(140, 30);
             removeButton.Click += RemoveButton_Click;
+            tasksListBox.MouseDoubleClick += TasksListBox_MouseDoubleClick;
 
             Controls.Add(tasksListBox);
             Controls.Add(titleTextBox);
@@ -118,6 +119,16 @@ namespace DailyPlannerGUI
             else
             {
                 MessageBox.Show("Не удалось удалить задачу!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+        private void TasksListBox_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            if (tasksListBox.SelectedIndex != -1)
+            {
+                int index = tasksListBox.SelectedIndex;
+                var tasks = taskManager.GetAllTasks();
+                tasks[index].IsCompleted = !tasks[index].IsCompleted;
+                RefreshTasksList();
             }
         }
     }
